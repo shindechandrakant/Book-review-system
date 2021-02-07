@@ -1,0 +1,47 @@
+
+.review-title {
+    
+    margin: auto;
+    width: 40%;
+    margin-top: 80px;
+}
+
+.review-list {
+    margin: auto;
+    width: 99%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.ur-headers {
+    background-color: rgb(46, 137, 241);
+    font-family: 'Segoe UI', sans-serif;
+    /* width: 21%; */
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px;
+}
+
+.review-list-row {
+    background-color: rgb(149, 187, 243);
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.review-list-row:hover {
+    cursor: pointer;
+    transform: scale(1.01, 1);
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 3px 6px 6px rgb(96, 146, 253);
+    /* color: white; */
+}
+
+.rl-td {
+    font-family: 'Segoe UI';
+    padding: 8px;
+}
+
+
+

@@ -1,0 +1,49 @@
+
+.ur-t {
+
+    margin: auto;
+    width: 18%;
+    margin-top: 100px;
+
+}
+.user-reviews {
+
+    margin: auto;
+    width: 95%;
+    margin-top: 50px;
+    height: 40px;
+
+}
+
+.ur-th {
+
+    height: 50px;
+    width: 8%;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: white;
+    background-color: rgb(46, 137, 241);
+}
+
+.ur-th-bkn {
+    width: 25%;
+}
+
+.ur-bk-row {
+    font-family: 'Segoe UI';
+    text-align: center;
+    height: 45px;
+    background-color: rgb(149, 187, 243);
+    transition: all 0.2s;
+}
+
+.ur-bk-row:hover {
+
+    cursor: pointer;
+    transform: scale(1.01, 1);
+    box-shadow: 3px 6px 6px rgb(96, 146, 253);
+}
+
+
+
+

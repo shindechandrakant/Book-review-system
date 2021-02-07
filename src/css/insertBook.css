@@ -1,0 +1,119 @@
+
+.reg-header {
+    background-color: rgb(82, 85, 83);
+    padding-bottom: 30px;
+}
+
+
+.head-img {
+    border: 3px solid white;
+    margin: auto;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 3%;
+    width: 80%;
+    height: 200px;
+}
+
+
+.reg-form {
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.reg-lables {
+    font-size: 20px;
+    margin: 0px !important;
+    margin-bottom: 20px;
+}
+
+.reg-isbn-div, .reg-date-div {
+    display: inline-block;
+    padding: 20px;
+}
+
+.reg-content {
+    margin-left: 120px;
+}
+
+.isbn {
+    background-color: white;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    box-shadow: 2px 2px 3px rgba(121, 161, 220, 67);	
+}
+
+.input-isbn {
+    text-transform: uppercase;
+}
+
+#reg-ip-auth-name {
+    
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+    height: 28px;
+    box-shadow: 2px 2px 3px rgba(121, 161, 220, 67);	
+    
+}
+
+.reg-ips {
+    height: 35px;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 4px;
+    padding-left: 15px;
+    width: 100%;
+    border: 0px;
+    outline: none;
+    margin-top: 10px;
+    box-shadow: 2px 2px 3px rgba(121, 161, 220, 67);	
+}
+
+.reg-divs {
+    padding: 20px;
+}
+
+.reg-ips-fw {
+    width: 90%;
+}
+
+#add-new-book {
+    
+    
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 24%;
+    width: 40%;
+    color: white;
+    border-radius: 5px;
+    background-color: #007bff;
+    outline: none;
+    border: none;
+    box-shadow: 2px 5px 5px rgba(121, 161, 220, 67);
+}
+
+#add-new-book:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    box-shadow: 5px 15px 5px rgba(121, 161, 220, 100);
+    
+}
+
+.reg-ip-desc {
+
+    max-width: 530px;
+    height: 90px;
+    min-width: 530px;
+    min-height: 90px;
+    max-height: 500px;
+    counter-increment: inherit;
+}
+
+
+
+

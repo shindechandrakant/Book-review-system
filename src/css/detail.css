@@ -1,0 +1,399 @@
+body {
+    background-color: #F2F5F7 ;
+    margin: 0px;
+    padding: 0px;
+      /* margin-top: 60px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.bookDetail {
+    /* border: 3px solid red; */
+    display: inline-block;
+    position:  relative;
+    left: 22%;
+    top: 60px;
+    width: 60%;
+    background-color: white;
+    border-radius: 6px;
+    transition: transform .2s;
+    box-shadow: 2px 3px 6px rgb(206, 204, 204);
+}
+
+.bookDetail:hover {
+    box-shadow: 1px 3px 5px rgb(164, 222, 255);
+    transform: scale(1.001);
+}
+
+img {
+    border-radius: 4px;
+}
+
+.bookDetailImg{
+    /* border: 4px solid rgb(111, 0, 255); */
+    display: inline-block;
+    padding: 7px;
+    position: relative;
+    left: 15%;
+    top: 10px;
+    border-radius: 10px;
+}
+
+p, h3{
+    margin: 0;
+}
+
+.bookDetailInfo{
+    /* border: 3px solid greenyellow; */
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 20%;
+    top: -20px;
+    max-width: 700px;
+}
+
+
+.bookNameDetail {
+    /* border: 3px solid red; */
+    cursor: default;
+    max-width: 500px;
+    box-sizing: content-box;
+    font-size: 30px;
+}
+
+.authorNameDetail {
+    opacity: 70%;
+    font-size: 15px;
+    position: relative;
+    top: 6px;
+    margin: 0px !important;
+    /* border: 3px solid red; */
+}
+
+.publisherNameDetail {
+    /* border: 3px solid red; */
+    margin:10px;
+    margin-left:0px;
+    cursor: default;
+    
+}
+
+.ISBNDetail {
+    /* border: 3px solid red; */
+    margin:10px;
+    margin-left:0px;
+    cursor: default;
+}
+
+.bookLanguage {
+    /* border: 3px solid red; */
+    margin:10px;
+    margin-left:0px;
+    cursor: default;
+}
+
+.bookPagesDetail{
+    /* border: 3px solid red; */
+    margin:10px;
+    margin-left:0px;
+    cursor: default;
+}
+
+.bookReleaseDetail {
+    /* border: 3px solid red; */
+    margin:10px;
+    margin-left:0px;
+    cursor: default;
+}
+
+.ratingStar {
+    cursor: default;
+    /* border: 3px solid greenyellow; */
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 10px;
+    /* height: 20px; */
+}
+
+.ratingStar > img {
+    margin: 5px;
+}
+
+.votersCount {
+    font-size: 18px !important;
+    top: 8px !important;
+    opacity: 60% !important;
+    position: relative !important;
+    margin: 5px !important;
+}
+
+#star {
+    height: 22px;
+    width: 22px;
+}
+
+/* Rating Bar */
+.ratingCircle {
+
+    /* border: 3px solid red; */
+    height: 90px;
+    width: 90px;
+    border-radius: 70px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+    font-size: 18px;
+    padding: 12px;
+    box-shadow: 2px 3px 5px rgb(231, 194, 124);
+}
+
+.ratingCircle > p{
+    margin: 0px;
+}
+.ratingHeading {
+    display: inline-block;
+    margin: auto;
+    width: 50%;
+    margin-left: 40%;
+}
+
+.ratingCircle:hover {
+    transform: translateY(-6px);
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgb(183, 248, 163);
+}
+
+.ratingText {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 8px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+/* Description */
+
+.avgRatingDetail {
+    /* border: 3px solid red; */
+    border-radius: 7px;
+    margin: auto;
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    top: 90px;
+    left: 21%;
+    margin-left: 10px;
+    cursor: default;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: start;
+    padding: 10px;
+    background-color: oldlace;
+    box-shadow: 1px 3px 5px rgb(200, 255, 200);
+}
+
+
+.userRatingText {
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 40px;
+    /* display: inline-block; */
+    position: relative;
+    left: 45%;
+}
+
+/* rating  */
+
+.select {
+    /* border: 3px solid green; */
+    width: 140px;
+    height: 30px;
+    font-size: 20px;
+    margin: 10px;
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+
+label {
+    font-size: 25px;
+    margin: 20px;
+}
+
+
+.userReviewForm {
+    /* border: 3px solid red; */
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    width: 60%;
+    left: 22%;
+    margin-top: 10%;
+    box-shadow: 2px 3px 6px white;
+}
+
+.userReviewForm:hover {
+    box-shadow: 2px 3px 6px rgb(219, 213, 213);
+}
+
+
+/* .reviewTable {
+    /* border: 3px solid greenyellow; 
+    display: inline-block;
+    position: relative;
+} */
+
+.attributes {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    /* border: 3px solid red; */
+    display: inline-block;
+    position: relative;
+    background-color: #ECF2FF;
+    margin: 20px;
+    border-radius: 5px;
+    width: 406px;
+}
+
+.submitReview {
+    border:3px solid green;
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    border-radius: 4px;
+    border: none;
+    transition: transform .2s;
+    outline: none;
+    background-color:#ECF2FF;
+    box-shadow: 0px 2px 14px rgb(144, 224, 151);
+    position: relative;
+    left: 40%;
+}
+
+.submitReview:hover {
+    cursor: pointer;
+    transform: scale(1.022);
+}
+
+/* User Review */
+
+#bookCover {
+        width: 225px !important;
+        height: 300px !important;
+        border-radius: 4px;
+}
+
+.userProfile {
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 190px;
+    background: url("https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.userName {
+    display: inline-block;
+    position: relative;
+    left: 110%;
+    width: 190px;
+    display: block;
+    margin-block-start: 1em;
+}
+
+
+.userReviewed {
+    /* border: 3px solid green; */
+    display: inline-block;
+    background-color: rgb(214, 214, 214);
+    margin: 50px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    transform: translateY .3s;
+    animation-delay: 2.3;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+.userReviewed:hover {
+    
+    transform:translateY(-6px);
+    /* transform: scale(1.003); */
+    animation-delay: 2.3;
+    box-shadow: 0px -2px 4px rgb(55, 245, 96);
+
+}
+
+
+p, span {
+    cursor: default;
+}
+
+
+/* .reviewScore {
+    border: 3px solid blue; 
+    display: inline-block;
+    
+} */
+
+.span1 {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    /* display: inline-block; */
+    /* border: 3px solid blue; */
+    padding: 8px;
+    margin-left: 15px;
+    float: right;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.userAttrubutes {
+    border: 3px solid rgb(255, 255, 255);
+    display: inline-block;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.reviewedTable {
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    margin-top: 7%;
+    left: 16%;
+}
+
+
+/* #img {
+    height: 45px;
+    width: 45px;
+    border-radius: 190px;
+} */
+
+
+/* ReviewCss */
+
+/* .writeReview {
+
+    margin: auto;
+    position: relative;
+    width: max-content;
+    top: 70px;
+} */
+
+/* textarea {
+    width: 650px;
+    height: 100px;
+    min-width: 600px;
+    min-height: 100px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    display: inline-block;
+    max-width: 1300px;
+    max-height: 100px;
+    max-lines: 4;
+    padding: 20px;
+} */
+

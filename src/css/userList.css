@@ -1,0 +1,49 @@
+
+.ul-heading {
+
+    margin: auto;
+    width: 25%;
+    margin-top: 70px;
+}
+
+.user-list-table {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.ul-headers {
+
+    background-color: rgb(46, 137, 241);
+    font-family: 'Segoe UI', sans-serif;
+    /* width: 21%; */
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.user-list-row {
+    background-color: rgb(149, 187, 243);
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.user-list-row:hover {
+    
+    cursor: pointer;
+    transform: scale(1.01, 1);
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 3px 6px 6px rgb(96, 146, 253);
+    /* color: white; */
+}
+
+.ul-td {
+    font-family: 'Segoe UI';
+    padding: 10px;
+}
+
+
+

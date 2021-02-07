@@ -1,0 +1,152 @@
+body {
+	background: #F2F5F7 !important;
+}
+
+.title {
+	margin-left: 30%;
+	margin-top:2%;
+}
+
+.contentRegs {
+	background-color: seashell;
+	margin: auto;
+	width: 80%;
+	margin-top: 1%;
+	box-shadow: 2px 5px 5px rgba(121, 161, 220, 67);
+	border-radius: 4px;
+}
+
+.content:hover {
+	transform: scale(114.02%);
+	box-shadow: 2px 3px 5px rgba(121, 161, 220, 67);
+}
+
+.heading {
+	background-color: #20c997;
+}
+
+.registerHeader {
+	background: white;
+	height: 150px;
+	margin-top: 5%;
+	text-align: center;
+	box-shadow: 2px 5px 6px rgba(121, 161, 220, 67);
+}
+
+.regImg {
+	width: 350px;
+	display: inline-block;
+	border-radius: 10px !important;
+	padding: 14px;
+	box-sizing: border-box;
+}
+
+.reg-home {
+	float: right;
+	margin-right: 170px;
+}
+
+.reg-login {
+	
+	margin-left: 180px;
+	margin-top: 10px;
+}
+
+.imgContiner {
+	display: inline-block;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.registerForm {
+	margin-left: 5%;
+	margin-top: 1%;
+	/* position: absolute; */
+	display: inline-block;
+}
+
+
+.registerFields {
+	margin: 20px;
+}
+
+.registerInput {
+	position: relative;
+	width: 550px;
+	height: 35px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+	font-size: 17px;
+	margin: 5px;
+	padding-left: 20px;
+	box-shadow: 0px 0px 5px rgb(75, 142, 230);
+}
+
+
+.userType, .password, .rButton, .userTypeLabel {
+	display: inline-block;
+}
+
+
+.userType {
+	/* margin: 10px; */
+	margin-top: 0px;
+	font-size: medium;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 20px;
+}
+
+.registerPassword {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+
+.passwordFields {
+	width: 250px;
+}
+
+.Labels {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 5px;
+	font-size: 20px !important;
+}
+
+.password {
+	padding: 10px;
+	padding-left: 0px;
+}
+
+.regButton {
+
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	color: white;
+	background-color: #007bff;
+	margin-top: 1%;
+	/* margin-left: %; */
+	margin-left: 33%;
+}
+
+.regButton:hover {
+
+	transform: scale(1.08);
+	cursor: pointer;
+}
+
+
+
+
+
+
+

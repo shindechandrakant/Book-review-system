@@ -1,0 +1,95 @@
+.admin {
+    position: relative;
+    top: 40px;
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 3px 3px 5px rgb(240, 240, 240);
+}
+
+.admin-heading {
+
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 22%;
+}
+
+
+.admin-stats {
+    /* display: inline-block; */
+    height: 120px;
+    margin: auto;
+    width: 70%;
+    position: relative;
+    left: 70px;
+
+}
+
+.admin-stat-attr {
+    display: inline-block;
+    background-color: rgb(86, 139, 252);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI';
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.5s;
+}
+
+.admin-stat-attr:hover {
+    cursor: pointer;
+    transform: scale(1.04, 1);
+    background-color: rgb(96, 120, 255);
+    box-shadow: 3px 6px 6px rgb(96, 146, 253);
+}
+
+.stat-attr-field {
+    display: block !important ; 
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+    /* margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important; */
+}
+
+.admin-collection {
+    margin: auto;
+    width: 67%;
+    position: relative;
+    top:4px;
+    left: 30px;
+    bottom: 50px;
+}
+
+
+.admin-collection-attr {
+    display: inline-block;
+    margin: 10px;
+    /* width: 8%; */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: rgb(50, 223, 142);
+    font-family: 'Segoe UI';
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.admin-collection-attr:hover {
+    
+    transform: scale(1.04, 1);
+    background-color: rgb(36, 241, 146);
+    box-shadow: 3px 6px 6px rgb(107, 115, 231);
+}
+
+#users-img, #addBook {
+    width: 96px;
+    height: 96px;
+}
+
+
+
+

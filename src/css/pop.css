@@ -1,0 +1,36 @@
+
+.back {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+}
+
+.pop-title {
+
+    font-family: 'Segoe UI';
+    font-size: 25px;
+}
+
+/* .pop-msg {
+} */
+
+
+.delete-bk-pop-btn {
+
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+.pop-btn-class {
+
+    margin: auto;
+    width: 50%;
+}
+
+
+
+
+

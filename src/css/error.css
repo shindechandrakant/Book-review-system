@@ -1,0 +1,15 @@
+#img {
+    width: 300px;
+    height:300px;
+}
+
+#message {
+    margin: 0px;
+}
+#container {
+    display: inline-block;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 25%;
+    text-align: center;
+}

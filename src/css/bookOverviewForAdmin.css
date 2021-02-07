@@ -1,0 +1,84 @@
+
+
+.ap-heading {
+
+    margin: auto;
+    width: 60%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.pannel-table {
+    
+    margin: auto;
+    width: 90%;
+    margin-top: 60px;
+}
+
+.panel-header {
+    background-color: rgb(46, 137, 241);
+}
+
+.header-title {
+
+    font-family: 'Segoe UI', sans-serif;
+    width: 21%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
+.header-title-bname {
+    
+    width: 41%;
+}
+
+.book-list-items {
+    font-size: 21px;
+    font-family: 'Segoe UI', sans-serif;
+    padding-left: 14px;
+    text-align: center;
+    
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+}
+
+#link:hover {
+
+    font-weight: 600;
+}
+
+
+.book-list-row {
+    background-color: rgb(149, 187, 243);
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.book-list-row:hover {
+    
+    cursor: pointer;
+    transform: scale(1.01, 1);
+    border-radius: 14px;
+    box-shadow: 3px 6px 6px rgb(96, 146, 253);
+    /* color: white; */
+}
+
+
+
+
+.admin-tool-img {
+    height: 32px;
+    width: 32px;
+    padding: 10px;
+}
+
+
+.admin-tool-img:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
