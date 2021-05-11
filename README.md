@@ -1,6 +1,6 @@
 # Book-review-system
 
-* #### Tool used
+* #### Tool/Tech stack used
     ```
         React js
         node js
